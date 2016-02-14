@@ -1,0 +1,19 @@
+suites:
+    crontab:
+        namespace: Kuczek\Test
+        psr4_prefix: Kuczek\Test
+        src_path: ./src
+        spec_path: ./spec
+
+formatter.name: progress
+
+extensions:
+    - PhpSpec\Extension\CodeCoverageExtension
+
+code_coverage:
+  format:
+    - html
+    - clover
+  output:
+    clover: .coverage.xml
+    html: .coverage

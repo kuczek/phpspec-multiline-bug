@@ -1,0 +1,19 @@
+{
+  "name": "kuczek/phpspec7-multiline-arguments",
+  "type": "library",
+  "description": "",
+  "autoload": {
+    "psr-4": {"Kuczek\\Test\\": "./src"}
+  },
+  "autoload-dev": {
+    "psr-4": {"Kuczek\\TestDev\\": "./src-dev" }
+  },
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "require-dev": {
+    "sebastian/phpdcd": "^1.0",
+    "phpspec/phpspec": "~2.4",
+    "henrikbjorn/phpspec-code-coverage": ">1.0,<3.0"
+  }
+}
